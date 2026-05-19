@@ -1,8 +1,67 @@
-# React + Vite
+# 🎬 Movie Discovery App (React + FastAPI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack movie discovery application that allows users to browse trending movies, search for films, 
+view detailed information, and watch trailers. The project is built with a React frontend and a FastAPI backend,
+powered by The Movie Database (TMDB) API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
+
+📺 LinkedIn Demo Video:  
+https://www.linkedin.com/in/YOUR_LINKEDIN_OR_POST_LINK_HERE
+
+---
+
+## 🧠 Features
+
+- 🔍 Real-time movie search  
+- 🎬 Popular and trending movies feed  
+- 📄 Detailed movie information (overview, rating, release date)  
+- ▶️ Trailer playback via YouTube integration (TMDB API)  
+- ⚡ Fast and responsive UI  
+- 🌐 Clean full-stack architecture (frontend + backend separation)
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React (Vite)
+- JavaScript
+- CSS
+
+**Backend:**
+- FastAPI
+- Pydantic
+- Requests
+- Python-dotenv
+
+**API:**
+- The Movie Database (TMDB) API
+
+---
+## 📁 Project Structure
+
+React_FastAPI/
+│
+├── frontend/ → React application
+├── backend/ → FastAPI server
+└── README.md
+
+---
+
+## 🎥 Core Functionality
+
+The application works by connecting the frontend to a FastAPI backend, which acts as a middleware between the client and TMDB API. This ensures secure API handling and better separation of concerns.
+
+- Movie data is fetched from TMDB via backend endpoints  
+- Trailer data is extracted and embedded using YouTube  
+- Frontend consumes clean REST API responses  
+
+---
+
+## 👨‍💻 Author
+
+- GitHub: https://github.com/Cesio9020  
+- LinkedIn: https://www.linkedin.com/in/YOUR_PROFILE

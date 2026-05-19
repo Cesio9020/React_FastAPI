@@ -1,0 +1,69 @@
+:root {
+  --bg: #050608;
+  --bg-surface: rgba(10, 13, 35, 0.98);
+  --bg-panel: rgba(8, 10, 30, 0.95);
+  --text: #f5f6fc;
+  --text-muted: #a8afc3;
+  --primary: #ff006e;
+  --primary-alt: #3a86ff;
+  --primary-soft: rgba(255, 0, 110, 0.12);
+  --accent: #00f5d4;
+  --warning: #ffbe0b;
+  --card: rgba(6, 8, 25, 0.98);
+  --border: rgba(255, 255, 255, 0.1);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background:
+    linear-gradient(135deg, rgba(5, 6, 8, 0.98) 0%, rgba(15, 16, 48, 0.96) 44%, rgba(5, 20, 31, 0.98) 100%);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  border: none;
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 15px;
+  }
+}

@@ -7,7 +7,7 @@ A full-stack movie discovery application that allows users to browse trending mo
 ## 🚀 Live Demo
 
 📺 LinkedIn Demo Video:  
-https://www.linkedin.com/in/YOUR_LINKEDIN_OR_POST_LINK_HERE
+https://www.linkedin.com/feed/update/urn:li:ugcPost:7462578847092465664/
 
 ---
 

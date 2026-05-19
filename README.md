@@ -39,10 +39,6 @@ https://www.linkedin.com/in/YOUR_LINKEDIN_OR_POST_LINK_HERE
 - The Movie Database (TMDB) API
 
 ---
-
-## 📁 Project Structure
-
-
 ---
 
 ## 🎥 Core Functionality

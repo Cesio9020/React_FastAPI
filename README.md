@@ -61,7 +61,5 @@ The application works by connecting the frontend to a FastAPI backend, which act
 
 ---
 
-## 👨‍💻 Author
 
-- GitHub: https://github.com/Cesio9020  
-- LinkedIn: https://www.linkedin.com/in/YOUR_PROFILE
+
